@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://emissions-dashboard-4.onrender.com/api/emissions/";
 
 export const getEmissions = () => {
   return axios.get(`${BASE_URL}/api/emissions/`);
